@@ -1,0 +1,6 @@
+engine.setProperty('voice', 'english+f1')
+utf8Value = toUtf8(value) -> six.text_type(value).encode('utf-8'), 
+    _espeak.SetVoiceByName(utf8Value) -> SetVoiceByName = cfunc('espeak_SetVoiceByName', dll, c_int, ('name', c_char_p, 1))
+cfunc -> return CFUNCTYPE(result, *atypes)((name, dll), tuple(aflags))
+
+Reads the voice files from espeak-data/voices and returns a list of VOICE objects.

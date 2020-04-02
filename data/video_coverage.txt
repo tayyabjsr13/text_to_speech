@@ -1,0 +1,4 @@
+Three operations will perform in text to speech application
+1. Change volume - Done
+2. Change speech rate - Done
+3. Change voice - Done

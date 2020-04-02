@@ -1,0 +1,198 @@
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_void_p'> argtypes (<class 'ctypes.c_void_p'>, <class 'ctypes.c_void_p'>, <class 'ctypes.c_ulong'>) kw {} flags 1
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_void_p'> argtypes (<class 'ctypes.c_void_p'>, <class 'ctypes.c_int'>, <class 'ctypes.c_ulong'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_int'>, <class 'ctypes.c_int'>, <class 'ctypes.c_char_p'>, <class 'ctypes.c_int'>] 
+name espeak_Initialize 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'output', 0), (1, 'bufflength', 100), (1, 'path', None), (1, 'option', 0)]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_int'>, <class 'ctypes.c_int'>, <class 'ctypes.c_char_p'>, <class 'ctypes.c_int'>) kw {} flags 1
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'pyttsx3.drivers._espeak.LP_c_short'>, <class 'ctypes.c_int'>, <class 'pyttsx3.drivers._espeak.LP_EVENT'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result None 
+ atypes [<class 'ctypes.CFUNCTYPE.<locals>.CFunctionType'>] 
+name espeak_SetSynthCallback 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'SynthCallback')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype None argtypes (<class 'ctypes.CFUNCTYPE.<locals>.CFunctionType'>,) kw {} flags 1
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_int'>, <class 'ctypes.c_char_p'>, <class 'ctypes.c_char_p'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result None 
+ atypes [<class 'ctypes.CFUNCTYPE.<locals>.CFunctionType'>] 
+name espeak_SetUriCallback 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'UriCallback')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype None argtypes (<class 'ctypes.CFUNCTYPE.<locals>.CFunctionType'>,) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_char_p'>, <class 'ctypes.c_long'>, <class 'ctypes.c_uint'>, <class 'ctypes.c_int'>, <class 'ctypes.c_uint'>, <class 'ctypes.c_uint'>, <class 'pyttsx3.drivers._espeak.LP_c_uint'>, <class 'ctypes.c_void_p'>] 
+name espeak_Synth 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'text'), (1, 'size'), (1, 'position', 0), (1, 'position_type', 1), (1, 'end_position', 0), (1, 'flags', 0), (1, 'unique_identifier', None), (1, 'user_data', None)]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_char_p'>, <class 'ctypes.c_long'>, <class 'ctypes.c_uint'>, <class 'ctypes.c_int'>, <class 'ctypes.c_uint'>, <class 'ctypes.c_uint'>, <class 'pyttsx3.drivers._espeak.LP_c_uint'>, <class 'ctypes.c_void_p'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_char_p'>, <class 'ctypes.c_ulong'>, <class 'ctypes.c_char_p'>, <class 'ctypes.c_uint'>, <class 'ctypes.c_uint'>, <class 'pyttsx3.drivers._espeak.LP_c_uint'>, <class 'ctypes.c_void_p'>] 
+name espeak_Synth_Mark 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'text'), (1, 'size'), (1, 'index_mark'), (1, 'end_position', 0), (1, 'flags', 0), (1, 'unique_identifier', None), (1, 'user_data', None)]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_char_p'>, <class 'ctypes.c_ulong'>, <class 'ctypes.c_char_p'>, <class 'ctypes.c_uint'>, <class 'ctypes.c_uint'>, <class 'pyttsx3.drivers._espeak.LP_c_uint'>, <class 'ctypes.c_void_p'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_char_p'>] 
+name espeak_Key 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'key_name')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_char_p'>,) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_wchar'>] 
+name espeak_Char 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'character')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_wchar'>,) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_int'>, <class 'ctypes.c_int'>, <class 'ctypes.c_int'>] 
+name espeak_SetParameter 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'parameter'), (1, 'value'), (1, 'relative', 0)]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_int'>, <class 'ctypes.c_int'>, <class 'ctypes.c_int'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_int'>] 
+name espeak_GetParameter 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'parameter')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_int'>,) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_wchar'>] 
+name espeak_SetPunctuationList 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'punctlist')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_wchar'>,) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result None 
+ atypes [<class 'ctypes.c_int'>, <class 'ctypes.c_void_p'>] 
+name espeak_SetPhonemeTrace 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'value'), (1, 'stream')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype None argtypes (<class 'ctypes.c_int'>, <class 'ctypes.c_void_p'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result None 
+ atypes [<class 'ctypes.c_char_p'>, <class 'ctypes.c_void_p'>] 
+name espeak_CompileDictionary 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'path'), (1, 'log')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype None argtypes (<class 'ctypes.c_char_p'>, <class 'ctypes.c_void_p'>) kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'pyttsx3.drivers._espeak.LP_LP_VOICE'> 
+ atypes [<class 'pyttsx3.drivers._espeak.LP_VOICE'>] 
+name espeak_ListVoices 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'voice_spec')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'pyttsx3.drivers._espeak.LP_LP_VOICE'> argtypes (<class 'pyttsx3.drivers._espeak.LP_VOICE'>,) kw {} flags 1
+DEBUG : 33 cListVoices <CFunctionType object at 0x7fa1ff068600>
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'ctypes.c_char_p'>] 
+name espeak_SetVoiceByName 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'name')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'ctypes.c_char_p'>,) kw {} flags 1
+&&&&&&&&&&&&&&&&&&& Till here is cleared DEBUG : 4 _espeak SetVoiceByName <CFunctionType object at 0x7fa1ff0686d0>
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [<class 'pyttsx3.drivers._espeak.LP_VOICE'>] 
+name espeak_SetVoiceByProperties 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'voice_spec')]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes (<class 'pyttsx3.drivers._espeak.LP_VOICE'>,) kw {} flags 1
+DEBUG : _espeak SetVoiceByProperties <CFunctionType object at 0x7fa1ff0687a0>
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'pyttsx3.drivers._espeak.LP_VOICE'> 
+ atypes [] 
+name espeak_GetCurrentVoice 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags []
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'pyttsx3.drivers._espeak.LP_VOICE'> argtypes () kw {} flags 1
+DEBUG : _espeak GetCurrentVoice <CFunctionType object at 0x7fa1ff068870>
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [] 
+name espeak_Cancel 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags []
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes () kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [] 
+name espeak_IsPlaying 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags []
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes () kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [] 
+name espeak_Synchronize 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags []
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes () kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_int'> 
+ atypes [] 
+name espeak_Terminate 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags []
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_int'> argtypes () kw {} flags 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^ DEBUG : 11 result <class 'ctypes.c_char_p'> 
+ atypes [<class 'ctypes.c_void_p'>] 
+name espeak_Info 
+dll <CDLL 'libespeak.so.1', handle 5556bac8c800 at 0x7fa1feff2150> 
+aflags [(1, 'ptr', 0)]
+
+@#@#@#@#@#@#@#@# DEBUG : 5 ctypes lib restype <class 'ctypes.c_char_p'> argtypes (<class 'ctypes.c_void_p'>,) kw {} flags 1
+
+
+DEBUG : end of _espeak object compilation, all objects are created
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@ DEBUG : espeak setProperty self <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0> name voice value default utf8Value b'default'
+DEBUG : espeak EspeakDriver setting default voice properties
+
+
+### DEBUG : driver name pyttsx3.drivers.espeak module <module 'pyttsx3.drivers.espeak' from '/run/media/taybu/Padhai_Likhai/workspace/PythonPractice/text_to_speech/text_to_speech/pyttsx3/drivers/espeak.py'> driver <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>
+DEBUG : engine self.proxy <pyttsx3.driver.DriverProxy object at 0x7fa1ff1a2910>
+### DEBUG : engine setProperty self.proxy <pyttsx3.driver.DriverProxy object at 0x7fa1ff1a2910> name voice value f5
+DEBUG : driver setProperty name voice value f5
+
+DEBUG : driver _push mtd <bound method EspeakDriver.setProperty of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>> args ('voice', 'f5') name None
+DEBUG : driver queued [(<bound method EspeakDriver.setProperty of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>>, ('voice', 'f5'), None)]
+DEBUG : inside driver _pump method
+
+*********** DEBUG : driver after executing cmd
+Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.
+
+DEBUG : driver _push mtd <bound method EspeakDriver.say of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>> args ('Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.',) name None
+DEBUG : driver queued [(<bound method EspeakDriver.setProperty of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>>, ('voice', 'f5'), None), (<bound method EspeakDriver.say of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>>, ('Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.',), None)]
+DEBUG : inside driver _pump method
+
+*********** DEBUG : driver after executing cmd
+
+DEBUG : driver _push mtd <bound method Engine.endLoop of <pyttsx3.engine.Engine object at 0x7fa1ff1a28d0>> args () name None
+DEBUG : driver queued [(<bound method EspeakDriver.setProperty of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>>, ('voice', 'f5'), None), (<bound method EspeakDriver.say of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>>, ('Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.',), None), (<bound method Engine.endLoop of <pyttsx3.engine.Engine object at 0x7fa1ff1a28d0>>, (), None)]
+DEBUG : inside driver _pump method
+
+*********** DEBUG : driver after executing cmd
+DEBUG : inside driver _pump method
+
+*********** DEBUG : driver _pump cmd (<bound method EspeakDriver.setProperty of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>>, ('voice', 'f5'), None) name None cmd[0] <bound method EspeakDriver.setProperty of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>> cmd[1] ('voice', 'f5')
+@@@@@@@@@@@@@@@@@@@@@@@@ DEBUG : espeak setProperty self <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0> name voice value f5 utf8Value b'f5'
+*********** DEBUG : driver _pump cmd (<bound method EspeakDriver.say of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>>, ('Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.',), None) name None cmd[0] <bound method EspeakDriver.say of <pyttsx3.drivers.espeak.EspeakDriver object at 0x7fa1ff1a29d0>> cmd[1] ('Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware.',)
+*********** DEBUG : driver after executing cmd
+DEBUG : inside driver _pump method
+
+*********** DEBUG : driver _pump cmd (<bound method Engine.endLoop of <pyttsx3.engine.Engine object at 0x7fa1ff1a28d0>>, (), None) name None cmd[0] <bound method Engine.endLoop of <pyttsx3.engine.Engine object at 0x7fa1ff1a28d0>> cmd[1] ()
+*********** DEBUG : driver after executing cmd

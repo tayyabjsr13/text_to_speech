@@ -1,0 +1,14 @@
+Python Text to Speech Example
+Here you will get python text to speech example.
+As we know, some people have difficulty reading large amounts of text due to dyslexia and other learning disabilities. Some people have basic literary levels. They often get frustrated trying to browse the internet because so much of it is in text form or on other hand some people prefer to listen or watch a news article (or something like this) instead of reading. So to solve all these problems a concept comes into mind that is ”text to speech”.
+So in this tutorial we are going to learn that how to convert text to speech in Python. Here we’ll show you two best and easiest ways to convert your text into speech
+    Text to speech without internet connection (using pyttsx3)
+    Text to speech having internet connection (using gTTS)
+Python Text to Speech Example
+Method 1: Using pyttsx3
+Pyttsx3 is an offline cross-platform Test-to-Speech library which is compatible with both Python 3 and Python 2 and supports multiple TTS engines
+To use pyttsx3, first we have to download and install it. In order to install it open your command prompt or terminal and type this command.
+pip install pyttsx3
+If you’re using windows operating system then you also have to install “pypiwin32” to make it work. To install pypiwin32 again type this command and hit enter in command prompt.
+python  -m  pip install pypiwin32
+Make sure you’ve internet connection while running both of the command. It is one time process, after you’ve installed pyttsx3 now to use it, the program will be as shown below.
